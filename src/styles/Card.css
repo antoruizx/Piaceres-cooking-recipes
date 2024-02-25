@@ -1,0 +1,53 @@
+.btnvm {
+    margin: 50px;
+}
+
+.row {
+    margin: 10px;
+}
+
+.slide img {
+    height: 80vh;
+}
+
+.titulo-principal {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form1 {
+    margin-top: 30px;
+    margin-left: 7px;
+}
+
+.titulo {
+    text-shadow: 2px 4px 4px gray;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+
+.card-footer {
+    background-color: rgb(139, 138, 138);
+    margin: 15px;
+    
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 15px;
+    padding-top: 12px;
+
+}
+
+#div-cards {
+    padding: 15px;
+}
+
+#btn-cards {
+    font-size: 13px;
+    width: 15rem;
+}

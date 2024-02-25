@@ -132,6 +132,7 @@ body {
   .slider-controler .swiper-button-next {
     left: 80% !important;
     transform: translateX(-80%) !important;
+    
   }
 }
 

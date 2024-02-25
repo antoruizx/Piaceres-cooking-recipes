@@ -1,5 +1,4 @@
-import Navbar2 from './components/Navbar2';
-import Carrousel from './components/Carrousel';
+import Home from './pages/Home';
 import Footer from './components/Footer';
 import Recetas from './pages/Recetas';
 import Top10 from './pages/Top10';
@@ -9,14 +8,15 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
+import Navbar3 from './components/Navbar3';
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-      <Navbar2 />
+      <Navbar3 />
       <Routes>
-        <Route path='/' element={<Carrousel />} />
+        <Route path='/' element={<Home />} />
         <Route path='/recetas' element={<Recetas />} />
         <Route path='/top10' element={<Top10 />} />
         <Route path='/comunidad' element={<Comunidad />} />

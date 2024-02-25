@@ -2,7 +2,7 @@ import React from 'react'
 
 const Comunidad = () => {
   return (
-    <div>Comunidad</div>
+    <div>Not Found - 404</div>
   )
 }
 
