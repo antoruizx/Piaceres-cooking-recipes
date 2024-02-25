@@ -8,13 +8,13 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Navbar3 from './components/Navbar3';
+import Navbar2 from './components/Navbar2';
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-      <Navbar3 />
+      <Navbar2 />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/recetas' element={<Recetas />} />
