@@ -5,7 +5,7 @@ const Card = (props) => {
   return (
     <div>
         <div className="caja-titulo">
-      <h1 className="titulo-principal">Comidas fáciles, ricas y caseras </h1>
+      <h1 className="titulo-principal ">Comidas fáciles, ricas y caseras </h1>
     </div>
     
     <div id='div-cards' className="row row-cols-1 row-cols-md-3 g-4">

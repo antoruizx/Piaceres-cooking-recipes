@@ -1,9 +1,12 @@
 import React from 'react'
+import PageNotFound from '../components/PageNotFound';
 
 const Comunidad = () => {
   return (
-    <div>Not Found - 404</div>
-  )
-}
+    <>
+      <PageNotFound />
+    </>
+  );
+};
 
 export default Comunidad;

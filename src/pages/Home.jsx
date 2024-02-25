@@ -1,6 +1,5 @@
 import React from 'react'
 import Carrousel from '../components/Carrousel';
-import Cards from '../components/Cards';
 import Card from '../components/Card';
 
 const Home = () => {
