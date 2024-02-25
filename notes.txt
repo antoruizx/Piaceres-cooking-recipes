@@ -1,0 +1,21 @@
+1. Install Node js
+    check nodejs: node -v
+
+2. Install NPM
+    cmd install: npm install -g npm
+    check npm: npm -v
+
+3. React Install - Globally
+    cmd: npm install -g create-react-app
+    check: create-react-app --version
+
+4. Globally install react creating app:
+    cmd: create-react-app funda-app
+    cmd: npm init react-app funda-app
+
+5. Direct install or crate your React app
+    cmd: npx create-react-app funda-app
+    cmd: npx create-react-app . -> (which creates into existing directory only)
+
+6. Run the react app
+    cmd: npm start
