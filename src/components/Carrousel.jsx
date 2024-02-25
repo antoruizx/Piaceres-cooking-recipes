@@ -1,7 +1,6 @@
 import React from 'react';
-import './styles/Carrousel.css'
+import '../styles/Carrousel.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -9,8 +8,8 @@ import 'swiper/css/navigation';
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
-import slide_img_1 from '../img/1.png';
-import slide_img_2 from '../img/2.png';
+import slide_img_1 from '../img/burritos.jpg';
+import slide_img_2 from '../img/lentejas-con-verduras.jpg';
 import slide_img_3 from '../img/3.png';
 import slide_img_4 from '../img/4.png';
 import slide_img_5 from '../img/5.png';
@@ -20,8 +19,7 @@ import slide_img_7 from '../img/hummus.jpg';
 
 const Carrousel = () => {
   return (
-    <div className="container">
-      <h1 className="heading">Flower Gallery</h1>
+    <div className="container-carousel">
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

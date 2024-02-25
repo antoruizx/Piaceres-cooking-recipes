@@ -59,29 +59,28 @@ body {
   background: var(--bg);
 }
 
-.container {
+.container-carrousel {
   max-width: 124rem;
   padding: 4rem 1rem;
   margin: 0 auto;
 }
 
 .heading {
-  padding: 1rem 0;
-  font-size: 3.5rem;
-  text-align: center;
-}
+    padding: 1rem 0 3rem 0;
+    font-size: 3.5rem;
+    text-align: center;
+  }
 
 .swiper_container {
-  height: 60rem;
-  padding: 2rem 0;
-  position: relative;
+    height: 60rem;
+    padding: 2rem 0;
+    position: relative;
 }
 
 .swiper-slide {
-  width: 37rem;
-  height: 52rem;
-  position: relative;
-}
+    width: 37rem !important;
+    height: 52rem !important;
+  }
 
 @media (max-width: 500px) {
   .swiper_container {
@@ -111,7 +110,7 @@ body {
 
 .slider-controler {
   position: relative;
-  bottom: 2rem;
+  bottom: 7.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
